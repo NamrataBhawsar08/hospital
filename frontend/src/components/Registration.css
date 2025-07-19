@@ -1,0 +1,64 @@
+/* Body ko full height & center align */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f4f8;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Container for register form */
+.register-container {
+  width: 100%;
+  max-width: 450px;
+  background-color: #abcafa;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Title style */
+.register-title {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #0077b6;
+  font-size: 1.8rem;
+}
+
+/* Form layout */
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input fields and dropdown */
+.register-form input,
+.register-form select {
+  margin-bottom: 18px;
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+/* Button style */
+.register-form button {
+  padding: 12px 0;
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover */
+.register-form button:hover {
+  background-color: #023e8a;
+}
